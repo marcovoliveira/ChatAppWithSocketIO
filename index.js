@@ -1,6 +1,6 @@
 const express = require('express')
 const path = require('path')
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT
 var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
